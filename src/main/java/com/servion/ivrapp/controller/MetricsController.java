@@ -1,4 +1,4 @@
-package com.servion.ivrapp;
+package com.servion.ivrapp.controller;
 
 import java.util.Date;
 
