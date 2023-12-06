@@ -14,5 +14,6 @@ public class AppController {
         model.setViewName(page);
         return model;
     }
+    
 }
 

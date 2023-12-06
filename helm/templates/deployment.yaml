@@ -17,6 +17,7 @@ spec:
       containers:
         - name: {{ .Values.containers.ivrapp.name }}
           image: {{ .Values.containers.ivrapp.image }}
+          imagePullPolicy: Always
           ports:
             - containerPort: {{ .Values.containers.ivrapp.port }}
           volumeMounts:
